@@ -1,4 +1,5 @@
 <keymap version="1" name="Sublime" parent="$default">
+  <action id="Arrangement.Rule.Edit" />
   <action id="CheckinProject" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -107,6 +108,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="GotoNextError" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
@@ -125,6 +127,9 @@
   <action id="PreviousOccurence" />
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -165,5 +170,6 @@
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
+  <action id="XDebugger.SetValue" />
   <action id="hg4idea.push" />
 </keymap>
