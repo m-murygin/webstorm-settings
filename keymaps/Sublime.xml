@@ -110,7 +110,9 @@
   <action id="IncrementalSearch">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
-  <action id="InsertLiveTemplate" />
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="shift s" />
+  </action>
   <action id="IpnbRunCellInplaceAction" />
   <action id="JumpToLastWindow" />
   <action id="NextOccurence" />
